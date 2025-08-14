@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Sequelize CLI temp files
+*.sqlite
+.DS_Store
+
+# Optional: OS / editor files
+Thumbs.db
+.idea/
+.vscode/
