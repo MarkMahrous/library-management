@@ -74,12 +74,7 @@ DB_NAME=library_db
 **Step 3 — Start PostgreSQL in Docker**
 
 ```sh
-docker run --name postgres_library \
-  -e POSTGRES_USER=postgres \
-  -e POSTGRES_PASSWORD=password \
-  -e POSTGRES_DB=library_db \
-  -p 5432:5432 \
-  -d postgres
+docker run --name postgres_library -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -e POSTGRES_DB=library_db -p 5432:5432 -d postgres
 ```
 
 _(Skip if you already have a running PostgreSQL container)_
